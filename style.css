@@ -1,0 +1,26 @@
+h1{
+    color: rgb(255, 181, 20);
+    font-size: 100px;
+}
+p,
+li{
+    color: blue;
+    line-height: 1,6;
+}
+h2{
+    color: #ff0000;
+}
+body {
+    background-color: aqua;
+    font-family: sans-serif, sans-serif;
+}
+p{
+    line-height: 6;
+    letter-spacing: 8;
+}
+.start{
+    background-color: rgb(49, 247, 148);
+}
+.start {
+
+}
