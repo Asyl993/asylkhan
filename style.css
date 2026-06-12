@@ -1,17 +1,25 @@
 h1{
-    color: rgb(255, 181, 20);
+    color: rgb(255, 0, 0);
     font-size: 100px;
+}
+h2{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+h3{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
 }
 p,
 li{
-    color: #0000ff;
+    color: #ffffff;
     line-height: 1,6;
 }
 h2{
     color: #ff0000;
 }
 body {
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     font-family: sans-serif, sans-serif;
 }
 p{
@@ -19,7 +27,7 @@ p{
     letter-spacing: 8;
 }
 .start{
-    background-color: rgb(49, 247, 148);
+    background-color: rgb(255, 78, 24);
     animation: fadeIn 1s ease;
 }
 

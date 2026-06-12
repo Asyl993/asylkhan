@@ -7,88 +7,14 @@ tap.addEventListener('click', () => {
 
 });
 
+let form = document.querySelector("#contactForm");
+let formMessage = document.querySelector("#formMessage");
 
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
 
+    formMessage.textContent = "сообщение отправнено.";
+    formMessage.style.color = "green";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    form.reset();
+})
